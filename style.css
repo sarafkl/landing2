@@ -1,0 +1,104 @@
+/* Write some CSS below */
+body {
+  font-family: 'PT Serif', serif;
+  color: #404042;
+  font-size: 18px;
+}
+
+h1, h2 {
+  color: white;
+  font-family: 'PT Serif', serif;
+}
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: black;
+}
+
+p {
+  color: black;
+  opacity: .7;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/cheesypasta.png');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-align: center;
+}
+.banner h1 {
+  color: white;
+}
+
+.banner p{
+  color: white;
+}
+
+.button-red {
+  background-color: darkred;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.ingredients {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 9px;
+  width: 600px;
+  text-align: align-left;
+  padding: 50px;
+  margin: 5px;
+}
+
+.ingredients img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 1px;
+}
+
+.recipe {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 9px;
+  width: 600px;
+  text-align: align-left;
+  padding: 50px;
+  margin: 5px; 
+}
+
+.recipe img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 1px; 
+}
+
+.footer {
+  background: #FFCA33;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: black;
+  font-size: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
